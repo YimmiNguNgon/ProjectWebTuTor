@@ -1,0 +1,212 @@
+
+/* ======== Reset Styles ======== */
+
+
+/* ======== Nền tổng thể ======== */
+body {
+    background-color: #f4f4f4; /* Nền xám nhạt giúp giao diện dịu hơn */
+    line-height: 1.6;
+}
+
+/* ======== Hero Section ======== */
+.hero {
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
+}
+
+.start-button {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.start-button:hover {
+    background-color: #ff4b2b;
+}
+
+/* ======== Stats Section ======== */
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #ffffff;
+    padding: 4rem 2rem;
+    border-radius: 10px;
+}
+
+.stats div {
+    text-align: center;
+    background: #fafafa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.stats div:hover {
+    transform: scale(1.05);
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4b2b;
+}
+
+.stats p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* ======== Tutor Carousel ======== */
+.tutor-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.carousel-button {
+    background: black;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.carousel-button:hover {
+    background: #ff4b2b;
+}
+
+.tutor-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.tutor-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.tutor-details h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.tutor-details p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff4b2b;
+    margin-bottom: 0.3rem;
+}
+
+.tutor-details span {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* ======== Guarantee Section ======== */
+.guarantee {
+    background-color: #ff4b2b;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+.guarantee-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ======== Become Tutor Section ======== */
+.become-tutor {
+    display: flex;
+    align-items: center;
+    background-color: #3dd2af;
+    padding: 3rem;
+    border-radius: 10px;
+    margin: 3rem auto;
+    max-width: 90%;
+}
+
+.tutor-content {
+    flex: 1;
+    color: black;
+    padding: 2rem;
+    text-align: left;
+}
+
+.tutor-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.tutor-button {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.tutor-button:hover {
+    background-color: #ff4b2b;
+}
+

@@ -1,0 +1,133 @@
+/* 🌟 Tổng thể trang */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f9fafb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+
+/* 🌟 Danh sách khóa học */
+.course-list {
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.course-list h2 {
+    color: #222;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Căn chỉnh bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Header bảng */
+thead {
+    background-color: #0056b3;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Các ô trong bảng */
+th, td {
+    padding: 14px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Hiệu ứng hover cho hàng */
+tbody tr:hover {
+    background: #f1f1f1;
+    transition: 0.3s;
+}
+
+/* 🌟 Nút chỉnh sửa */
+.edit-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 14px;
+    margin: 3px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #e67e22;
+}
+
+/* 🌟 Nút xóa */
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 14px;
+    margin: 3px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* 🌟 Bọc nút để căn giữa */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* 🌟 Nút thêm khóa học */
+#openModal {
+    display: block;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+#openModal:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* 🌟 Hiệu ứng bo góc cho bảng */
+table, th, td {
+    border-radius: 5px;
+}

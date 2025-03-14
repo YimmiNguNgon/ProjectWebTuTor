@@ -1,0 +1,324 @@
+/* ======== Reset Styles ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ======== Body Styles ======== */
+body {
+    background-color: #f8f9fa;
+}
+
+/* ======== Header Container ======== */
+.header-container {
+    width: 100%;
+    background: linear-gradient(to right, #ff66b2, #ff99cc); /* Gradient background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+    padding: 1rem 0;
+}
+
+/* ======== Header styling ======== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* ======== Logo styling ======== */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/* ======== Navigation Styling ======== */
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* ======== Navigation Buttons ======== */
+.nav-button {
+    background: none;
+    border: 2px solid white;
+    font-size: 1rem;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+    background-color: white;
+    color: #ff66b2;
+    transform: translateY(-3px);
+}
+
+/* ======== Authentication Controls ======== */
+.auth-controls {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: 1rem;
+    color: white;
+}
+
+/* ======== Login Button ======== */
+.login-button {
+    background-color: white;
+    border: 2px solid white;
+    color: #ff66b2;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-button:hover {
+    background-color: #ff66b2;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* ======== Container chính ======== */
+.login-container {
+    margin: 80px auto;
+    display: flex;
+    position: relative;
+    width: 850px;
+    height: 520px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    background: #fff;
+}
+
+/* ======== Form Wrapper (Sign In & Sign Up) ======== */
+.form-wrapper {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Khi active, form-wrapper dịch chuyển sang trái */
+.right-panel-active .form-wrapper {
+    transform: translateX(-50%);
+}
+
+/* Sign In & Sign Up */
+.sign-in-container,
+.sign-up-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* Sign Up mặc định ẩn */
+.sign-up-container {
+    opacity: 0;
+    transform: translateX(50px);
+    pointer-events: none;
+}
+
+/* Khi active, Sign Up hiện ra */
+.right-panel-active .sign-up-container {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+/* Sign In mặc định hiển thị */
+.sign-in-container {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+/* Khi active, Sign In biến mất */
+.right-panel-active .sign-in-container {
+    opacity: 0;
+    transform: translateX(-50px);
+    pointer-events: none;
+}
+
+/* ======== Overlay Layer ======== */
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    color: white;
+    text-align: center;
+    transition: transform 0.5s ease-in-out, background 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    z-index: 10;
+}
+
+/* Khi active, overlay trượt sang trái */
+.right-panel-active .overlay-container {
+    transform: translateX(-100%);
+}
+
+/* Hiệu ứng đổi màu overlay khi click */
+.overlay-container.overlay-active {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+/* Nội dung trong overlay */
+.overlay {
+    text-align: center;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* ======== Text & Button Styling ======== */
+.text-center-student,
+.signup-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s, transform 0.3s;
+    margin-right: 20px;
+}
+
+.text-center-student:hover,
+.signup-link:hover {
+    color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+/* ======== Sign up links Container */
+.signup-links-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Sign up as Student and Tutor links */
+.signup-link {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    background-color: #f8f9fa;
+    border: 1px solid #007bff;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+.signup-link:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.5);
+}
+
+/* ======== Form Fields ======== */
+.form-control {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #ff416c;
+    box-shadow: 0px 0px 10px rgba(255, 65, 108, 0.3);
+    outline: none;
+}
+
+/* ======== Password Visibility Button ======== */
+.input-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-group-text {
+    cursor: pointer;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.input-group-text:hover {
+    background: #ff416c;
+    color: white;
+}
+
+/* ======== Sign Up Button ======== */
+.btn-login {
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(255, 65, 108, 0.5);
+}
+
+/* ======== Responsive Mobile ======== */
+@media (max-width: 768px) {
+    .login-container {
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .form-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .sign-in-container,
+    .sign-up-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .overlay-container {
+        display: none;
+    }
+}

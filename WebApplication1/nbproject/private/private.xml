@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/locbb/WebApplication1/src/java/controller_tutor/TutorCoursesServlet.java</file>
+            <file>file:/D:/locbb/WebApplication1/web/courseDetail.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/booking.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/controller_tutor/TutorHomeServlet.java</file>
+            <file>file:/D:/locbb/WebApplication1/web/homeuser.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/model/Course.java</file>
+            <file>file:/D:/locbb/WebApplication1/web/courses.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/controller_tutor/AddCoursesServlet.java</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/model/CourseRequest.java</file>
+            <file>file:/D:/locbb/WebApplication1/web/markAttendance.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/hometutor.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/footer.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/WEB-INF/web.xml</file>
+            <file>file:/D:/locbb/WebApplication1/web/tutorcourses.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/controller_student/StudentAttendedSessionsController.java</file>
+            <file>file:/D:/locbb/WebApplication1/web/manageruser.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/attendedSessions.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/login.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/reviewConfirmation.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/context/DBContext.java</file>
+            <file>file:/D:/locbb/WebApplication1/web/attendance.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/menu.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/addschedule.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/reviewSession.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/dal/CourseSessionDAO.java</file>
+            <file>file:/D:/locbb/WebApplication1/web/schedule.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/profileuser.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/header.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/web/profiletutor.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/controller_tutor/ScheduleServlet.java</file>
+            <file>file:/D:/locbb/WebApplication1/web/studentCourses.jsp</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/dal/CourseDAO.java</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/model/Courses.java</file>
+            <file>file:/D:/locbb/WebApplication1/src/java/dal/TutorDAO.java</file>
+            <file>file:/D:/locbb/WebApplication1/web/manage-reservation.jsp</file>
+        </group>
+    </open-files>
+</project-private>
